@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Suite" parallel="methods" thread-count="5" verbose="1" >
+
+                  <parameter name="reTry" value="1"/>
+                  <parameter name="browser" value="chrome"/>
+                  <parameter name="testCategory" value="OptileTest"/>
+
+    <test name="Dropbox Test" >
+        <classes>
+            <class name="DropBoxTest"/>
+        </classes>
+    </test>
+</suite>
