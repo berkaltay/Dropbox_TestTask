@@ -4,7 +4,7 @@ Dropbox Test Automation for 5 Test Cases
 
 ## Getting Started
 
-User may check-in all the available source code to an IDE for testing purposes, also Maven usage is supported.
+User may check-in all the available source code to an IDE for testing purposes.
 
 ### Prerequisites
 
